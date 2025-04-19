@@ -1194,6 +1194,9 @@ main > article {
 .meta__dropdown > li:first-child > a,
 .meta__dropdown > li:first-child > form > button {
 	border-radius: 0px;
+}
+
+.meta__dropdown > li > form > button  {
 	padding: 0px;
 }
 
