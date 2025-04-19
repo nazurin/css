@@ -1163,6 +1163,19 @@ main > article {
 	text-transform: none;
 }
 
+.work__tags {
+	margin: 0;
+	padding: 0;
+}
+
+.work__tags > li > a {
+	padding: 0px 0.25em;
+}
+
+.work__tags > li:first-of-type {
+	padding-left: 0px;
+}
+
 .meta__chips {
 	gap: 0.5em;
 }
@@ -1279,6 +1292,20 @@ div[x-data="mediainfo"] > .panel__header {
 .mediainfo > .mediainfo__general > dl,
 .mediainfo > .mediainfo__video > dl {
 	margin: 0px;
+}
+
+.dialog {
+	background-color: white;
+	border: 3px ridge white;
+}
+
+.dialog__heading {
+	padding: 0.25em 1em;
+	font-size: 16px;
+}
+
+.dialog__form {
+	padding: 0px;
 }
 
 #comments .comment__avatar {
