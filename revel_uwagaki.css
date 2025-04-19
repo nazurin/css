@@ -1003,6 +1003,15 @@ li.pagination__next {
 	height: 20px;
 	line-height: 20px
 }
+
+.data-table-wrapper {
+	padding: 0.25em;
+}
+
+.data-table > thead > tr > th {
+	font-weight: bold;
+}
+
 .data-table>tr>th,
 .data-table>thead>tr>th,
 .data-table>tbody>tr>th,
@@ -1172,7 +1181,7 @@ main > article {
 	padding: 0px 0.25em;
 }
 
-.work__tags > li:first-of-type {
+.work__tags > li:first-of-type > a {
 	padding-left: 0px;
 }
 
@@ -1708,9 +1717,11 @@ tr[class=torrent-search--list__no-poster-row] .torrent-search--list__age {
 	padding: 0px 0.5em;
 	grid-template-columns: 5em 30em 4em 3em 6em 2em 2em 2em auto;
 }
+
 .data-table > thead > tr > th {
 	padding: 0.125em 0.25em;
 }
+
 .data-table tr td:last-of-type,
 .data-table tr th:last-of-type {
 	padding-right: 0px;
