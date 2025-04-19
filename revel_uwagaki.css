@@ -1272,7 +1272,7 @@ main > article {
 .torrent__buttons > .form__group:nth-child(1) > .form__button {
 	background-color: hsl(45, 66%, 55%);
 }
-.torrent__buttons > .form__group:nth-child(2) > form > .form__button {
+.torrent__buttons > .form__group:nth-child(2)  .form__button {
 	background-color: hsl(95, 66%, 55%);
 }
 .torrent__buttons > .form__group:nth-child(3) > .form__button {
