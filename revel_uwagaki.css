@@ -1005,28 +1005,24 @@ li.pagination__next {
 }
 
 .data-table-wrapper {
-	padding: 0.25em;
+	padding: 0px 0.25em;
 }
 
-.data-table > thead > tr > th {
-	font-weight: bold;
-}
-
-.data-table>tr>th,
-.data-table>thead>tr>th,
-.data-table>tbody>tr>th,
-.data-table>tfoot>tr>th {
+.data-table > tr > th,
+.data-table > thead > tr > th,
+.data-table > tbody > tr > th,
+.data-table > tfoot > tr > th {
 	height: inherit;
 	padding: 0.25em 16px;
 	line-height: inherit;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: bold;
 	text-transform: none;
 	white-space: nowrap;
 	background: inherit
 }
-.data-table>tbody>tr>td,
-.data-table>tfoot>tr>td {
+.data-table > tbody > tr > td,
+.data-table > tfoot > tr > td {
 	padding:4px;
 	font-size:16px
 }
