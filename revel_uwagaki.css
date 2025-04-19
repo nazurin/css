@@ -1173,7 +1173,8 @@ main > article {
 	padding: 0;
 }
 
-.work__tags > li > a {
+.work__tags > li > a,
+.work__tags > li > span {
 	padding: 0px 0.25em;
 }
 
