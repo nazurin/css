@@ -428,6 +428,7 @@ a:hover {
   white-space:nowrap;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+  border-radius: 0px;
 }
 .panel__body {
   padding:16px;
