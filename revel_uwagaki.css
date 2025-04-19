@@ -1194,6 +1194,7 @@ main > article {
 .meta__dropdown > li:first-child > a,
 .meta__dropdown > li:first-child > form > button {
 	border-radius: 0px;
+	padding: 0px;
 }
 
 .meta__chips {
