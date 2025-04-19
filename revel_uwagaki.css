@@ -1176,6 +1176,26 @@ main > article {
 	padding-left: 0px;
 }
 
+.meta__dropdown-button {
+	height: initial;
+	width: initial;
+}
+
+.meta__dropdown {
+	top: 24px;
+	border-radius: 0px;
+	padding: 0.25em;
+}
+
+.meta__dropdown > li > a {
+	padding: 0px;
+}
+
+.meta__dropdown > li:first-child > a,
+.meta__dropdown > li:first-child > form > button {
+	border-radius: 0px;
+}
+
 .meta__chips {
 	gap: 0.5em;
 }
