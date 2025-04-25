@@ -443,6 +443,7 @@ a:hover {
     font-weight: bold;
     text-transform: none;
     white-space: nowrap;
+    border-radius: 0px;
 }
 
 .panel__body {
