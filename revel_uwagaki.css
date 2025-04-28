@@ -81,6 +81,8 @@
     --chatbox-users-bg: inherit;
     --chatbox-tab-delete-fg: inherit;
     --chatbox-tab-delete-bg: inherit;
+    --compact-search-border-radius: 0px;
+    --compact-search-box-shadow: inherit;
     --comparison-divider-fg: inherit;
     --comparison-button-fg: inherit;
     --data-table-fg: var(--text-color);
@@ -176,12 +178,13 @@
     --paginate-fg: black;
     --paginate-fg-disabled: inherit;
     --paginate-divider: inherit;
+    --paginate-border-radius: 0px;
     --panel-action-fg: inherit;
     --panel-border: none;
     --panel-bg: inherit;
     --panel-fg: var(--text-color);
     --panel-box-shadow: none;
-    --panel-border-radius: 0;
+    --panel-border-radius: 0px;
     --panel-head-bg: inherit;
     --panel-head-fg: inherit;
     --playlist-card-bg: inherit;
@@ -1086,10 +1089,11 @@ li:not(.nav-tavV2):not(.nav-tab--active)>.nav-tab__link:active {
 }
 
 .form__standard-icon-button {
-    font-size: 16px;
-    padding: 16px;
-    min-height: 24px;
-    min-width: 24px
+    font-size: initial;
+    padding: 0px;
+    min-height: initial;
+    min-width: initial;
+    display: inline;
 }
 
 .bbcode-rendered.bbcode-rendered {
@@ -1393,35 +1397,35 @@ main>article {
     margin: 0.25em;
 }
 
-.torrent__buttons>.form__group:nth-child(1)>.form__button {
+.torrent__buttons>.form__group:nth-child(1) .form__button {
     background-color: hsl(45, 66%, 55%);
 }
 
-.torrent__buttons>.form__group:nth-child(2)>form>.form__button {
+.torrent__buttons>.form__group:nth-child(2) .form__button {
     background-color: hsl(95, 66%, 55%);
 }
 
-.torrent__buttons>.form__group:nth-child(3)>.form__button {
+.torrent__buttons>.form__group:nth-child(3) .form__button {
     background-color: hsl(145, 66%, 55%);
 }
 
-.torrent__buttons>.form__group:nth-child(4)>.form__button {
+.torrent__buttons>.form__group:nth-child(4) .form__button {
     background-color: hsl(195, 66%, 55%);
 }
 
-.torrent__buttons>.form__group:nth-child(5)>.form__button {
+.torrent__buttons>.form__group:nth-child(5) .form__button {
     background-color: hsl(245, 66%, 55%);
 }
 
-.torrent__buttons>.form__group:nth-child(6)>.form__button {
+.torrent__buttons>.form__group:nth-child(6) .form__button {
     background-color: hsl(295, 66%, 55%);
 }
 
-.torrent__buttons>.form__group:nth-child(7)>.form__button {
+.torrent__buttons>.form__group:nth-child(7) .form__button {
     background-color: hsl(345, 66%, 55%);
 }
 
-.torrent__buttons>.form__group:nth-child(8)>.form__button {
+.torrent__buttons>.form__group:nth-child(8) .form__button {
     background-color: hsl(35, 66%, 55%);
 }
 
